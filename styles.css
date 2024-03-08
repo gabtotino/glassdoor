@@ -1,0 +1,63 @@
+:root {
+    --font-comfortaa: 'Comfortaa', cursive;
+    --font-rubik: 'Rubik', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --color-branco: #fefae0;
+    --color-verde-escuro: #31572c;
+    --color-verde-claro: #ecf39e;
+}
+
+
+.comfortaa {
+    font-family: var(--font-comfortaa);
+}
+
+.rubik {
+    font-family: var(--font-rubik);
+}
+
+.roboto {
+    font-family: var(--font-roboto);
+}
+
+.color-branco {
+    color: var(--color-branco);
+}
+
+.bg-branco {
+    background-color: var(--color-branco);
+}
+
+.bg-verde-escuro {
+    background-color: var(--color-verde-escuro);
+}
+
+.bg-verde-claro {
+    background-color: var(--color-verde-claro);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.glassdoor-nav {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 35.2rem;
+    border: transparent;
+}
+
+footer img {
+    width: 190px;
+    height: 150px;
+}
